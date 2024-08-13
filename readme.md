@@ -31,8 +31,16 @@
 
 
 ## Cucumber report
+![image](https://github.com/user-attachments/assets/9eb69645-176b-4662-bd7f-aa55349eebf8)
+![image](https://github.com/user-attachments/assets/98aa787c-0b0a-4bfb-901e-b0b8887589de)
+![image](https://github.com/user-attachments/assets/e8399c86-da87-4e54-b50a-03f0334314c5)
+![image](https://github.com/user-attachments/assets/61754e48-967d-4e3b-be8b-050306cee39d)
 
-![image](https://github.com/user-attachments/assets/b29ece7d-65af-4b34-a1e0-e2eccacaa020)
+
+
+
+
+
 
 ## Test execution log in console
 <img src="https://github.com/user-attachments/assets/65e7b9df-c7e7-413c-9e50-28c14de666ec" width="600" height="400">
