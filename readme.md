@@ -38,11 +38,8 @@
 
 ![image](https://github.com/user-attachments/assets/e8399c86-da87-4e54-b50a-03f0334314c5)
 ![image](https://github.com/user-attachments/assets/61754e48-967d-4e3b-be8b-050306cee39d)
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/3f664a3d-9b06-44be-8749-9327e05a519d)
+![image](https://github.com/user-attachments/assets/22e8b594-fd05-44ae-979a-fb9e933a1045)
 
 
 ## Test execution log in console
