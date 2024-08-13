@@ -7,39 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1981a8f-5a84-417f-b9e4-f9bff7b39750" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b1981a8f-5a84-417f-b9e4-f9bff7b39750" name="Changes" comment="minor update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wa/demo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wa/demo/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/CucumberHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/CucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/CucumberSpringContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/CucumberSpringContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/StaticContextAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/StaticContextAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/listener/TestAllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/listener/TestAllureListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/steps/ChatSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/steps/ChatSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/steps/LiveCasinoTabSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/steps/LiveCasinoTabSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/steps/MainPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/steps/MainPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/steps/SignInSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/steps/SignInSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/steps/SportTabSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/cucumber/steps/SportTabSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/pages/popup/ChatPopupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/pages/popup/ChatPopupPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/pages/popup/SignInPopupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/pages/popup/SignInPopupPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/pages/tab/LiveCasinoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/pages/tab/LiveCasinoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/pages/tab/SportsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/pages/tab/SportsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wa/demo/playwright/PlaywrightConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wa/demo/playwright/PlaywrightConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application-qa.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application-qa.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/chat_message.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/chat_message.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/user_login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/user_login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/pages/chat-popup.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pages/chat-popup.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/pages/live-casino.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pages/live-casino.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/pages/signin-popup.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pages/signin-popup.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/pages/sports-page.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pages/sports-page.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,6 +189,30 @@
       <option name="presentableId" value="Default" />
       <updated>1723548744212</updated>
     </task>
+    <task id="LOCAL-00001" summary="minor update">
+      <option name="closed" value="true" />
+      <created>1723576670000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723576670000</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="minor update" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor update" />
   </component>
 </project>
