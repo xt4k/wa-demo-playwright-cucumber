@@ -29,7 +29,8 @@
 ![image](https://github.com/xt4k/playwright-junit-allure-demo/assets/38681283/b66fb1e7-2ddb-4c2a-8863-01fc3f32e846)
 
 ## Test execution log in console
-![image](https://github.com/user-attachments/assets/65e7b9df-c7e7-413c-9e50-28c14de666ec)
+<img src="https://github.com/user-attachments/assets/65e7b9df-c7e7-413c-9e50-28c14de666ec" width="600" height="400">
+
 
 ### Project structure:
 ```text
