@@ -3,8 +3,7 @@
 <img src="https://github.com/xt4k/playwright-junit-allure-demo/assets/38681283/ffac15e8-7d56-4a8c-92c6-05d0f853d9c5" width="80" height="100">
 
 ### Qualification task for WA.Technology 
-![image](https://github.com/user-attachments/assets/4403360a-0e50-4201-9b60-ed1584bd9eaa)
-
+![image](https://github.com/user-attachments/assets/916e42ef-6c0a-40a4-93b3-8bb7e02cec73)
 
 
 ## TABLE OF CONTENT
