@@ -60,3 +60,7 @@ allure serve -h localhost target/allure-results
 * [Cucumber Reference Guide](https://cucumber.io/docs/cucumber/)
 * [Playwright](https://playwright.dev/java/docs/intro)
 
+### Test execution log in console
+![image](https://github.com/user-attachments/assets/65e7b9df-c7e7-413c-9e50-28c14de666ec)
+
+
