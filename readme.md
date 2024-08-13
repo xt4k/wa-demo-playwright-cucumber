@@ -1,8 +1,8 @@
 # Playwright demo TAF (test automation framework)
 <img src="https://github.com/xt4k/playwright-junit-allure-demo/assets/38681283/52b31b88-8996-47eb-a8ef-551fae1d70e6" width="100" height="100">
 
-### Qualification task for WA.Technology 
-<img src="https://github.com/user-attachments/assets/916e42ef-6c0a-40a4-93b3-8bb7e02cec73" width="300" height="100">
+### Assesment task for WA.Technology 
+<img src="https://github.com/user-attachments/assets/916e42ef-6c0a-40a4-93b3-8bb7e02cec73" width="400" height="100">
 
 
 ## TABLE OF CONTENT
