@@ -24,6 +24,8 @@
 ![image](https://github.com/user-attachments/assets/1afbc4f7-1d08-4a18-ba79-b267433e18e1)
 ![image](https://github.com/user-attachments/assets/70700a18-4e34-4ff7-bd4b-825704cc4be7)
 ![image](https://github.com/user-attachments/assets/dc50d4ad-0a36-4d11-94a9-08251168852c)
+![image](https://github.com/user-attachments/assets/49227c1f-7be8-47ed-841c-ccf18d01b31a)
+
 ![image](https://github.com/user-attachments/assets/850cbac2-2984-4473-8698-f9f8a5b4c930)
 ![image](https://github.com/user-attachments/assets/f2cf54b9-d86f-4202-9011-b2eb7430e244)
 ![image](https://github.com/user-attachments/assets/b29ece7d-65af-4b34-a1e0-e2eccacaa020)
@@ -32,7 +34,8 @@
 
 ## Cucumber report
 ![image](https://github.com/user-attachments/assets/9eb69645-176b-4662-bd7f-aa55349eebf8)
-![image](https://github.com/user-attachments/assets/98aa787c-0b0a-4bfb-901e-b0b8887589de)
+![image](https://github.com/user-attachments/assets/167e0695-d0e6-4093-8e65-1fad44ca7404)
+
 ![image](https://github.com/user-attachments/assets/e8399c86-da87-4e54-b50a-03f0334314c5)
 ![image](https://github.com/user-attachments/assets/61754e48-967d-4e3b-be8b-050306cee39d)
 
