@@ -11,52 +11,81 @@ Working folder structure :
 ├───src
     └───test
         ├───java
-        │   └───my
-        │       └───accelerator
-        │           └───atf
-        │               │   CucumberRunner.java
-        │               │
-        │               ├───config
-        │               │       TestConfig.java
-        │               │
-        │               ├───context
-        │               │       DataUserKeys.java
-        │               │       ScenarioContext.java
-        │               │       ScenarioKeys.java
-        │               │
-        │               ├───hooks
-        │               │       ExecutionHooks.java
-        │               │
-        │               └───steps
+        │   └───wa
+        │       └───────demo   
+        │               │ 
+        │               │    
+        │               ├──── cucumber
+        │               │       ├─── listener
+        │               │       │    TestAllureListener
+        │               │       │       
+        │               │       └─── steps
+        │               │            CucumberHooks.java
+        │               │            CucumberRunner.java
+        │               │            CucumberSpringContextConfig.java
+        │               │            StaticContextAccessor  
+        │               │  
+        │               │    
+        │               ├──── steps
+        │               │    
+        │               ├──── pages
+        │               │      ├─── popup
+        │               │      │    PopupPage1
+        │               │      │    ...
+        │               │      │    PopupPageN
+        │               │      └─── tab
+        │               │           TabPage1
+        │               │           ...
+        │               │           TabPageN
+        │               │     Page1
+        │               │     ...
+        │               │     PageN             
+        │               │     
+        │               └──── playwright
         │
         └───resources
-            │   allure.properties
-            │   application.properties
-            │   cucumber.properties
-            │   junit-platform.properties
-            │   logback-test.xml
-            │
-            └───features
+              │
+              ├─── features
+              │    test_1.feature
+              │    ...
+              │    test_N.feature
+              │ 
+              └─── pages
+                   page-1.properties
+                   ...
+                   page-N.properties              
+              allure.properties
+              application.properties
+              cucumber.properties
+              junit-platform.properties
+              logback-test.xml     
+
 
 ```
-
-### How to start code generator
-```text
-mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="codegen google.com"
+### How to clean old run
+```
+mvn clean 
 ```
 
 ### How to run tests
 
 ```
-mvn clean test
+mvn clean verify
 ```
 
 ### How to show allure report
 ```
-allure serve -h localhost target/allure-results
+allure serve -h target/allure-results
+
 ```
 
-* [Official Junit5 documentation](https://junit.org/junit5/docs/current/user-guide/#overview)
-* [Cucumber Reference Guide](https://cucumber.io/docs/cucumber/)
+### How to show cucumber report
+```
+Just open in Browser file  ../target/CucumberReport.html
+```
+
+* [Junit5](https://junit.org/junit5/docs/current/user-guide/#overview)
+* [Cucumber](https://cucumber.io/docs/cucumber/)
 * [Playwright](https://playwright.dev/java/docs/intro)
+* [Allure](https://allurereport.org/docs/)
 

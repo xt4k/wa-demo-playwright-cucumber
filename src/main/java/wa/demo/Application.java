@@ -1,4 +1,4 @@
-package my.accelerator.atf;
+package wa.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package wa.demo.pages.popups;
+package wa.demo.pages.popup;
 
 import com.microsoft.playwright.ElementHandle;
 import com.microsoft.playwright.FrameLocator;
@@ -16,7 +16,7 @@ import java.util.List;
 @Component
 @Slf4j
 @ScenarioScope
-@PropertySource("classpath:pages/chat-popups.properties")
+@PropertySource("classpath:pages/chat-popup.properties")
 public class ChatPopupPage {
 
     @Value("${language.placeholder}")

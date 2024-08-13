@@ -1,4 +1,4 @@
-package wa.demo.pages.tabs;
+package wa.demo.pages.tab;
 
 import com.microsoft.playwright.Page;
 import io.cucumber.spring.ScenarioScope;

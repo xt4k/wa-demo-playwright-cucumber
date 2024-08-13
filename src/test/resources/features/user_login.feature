@@ -1,5 +1,5 @@
-Feature:  Efbet login/logout functionality
-  'When registered player open Efbet.net, he can login'
+Feature:  Efbet login functionality
+  'When registered user open Efbet.net, he can login'
 
   Scenario: Check registered user `sign in` functionality
     Given user navigated to homepage

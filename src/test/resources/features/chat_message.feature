@@ -11,5 +11,5 @@ Feature:  Efbet chat functionality
     Then sent message in chat history has text "<message>"
 
     Examples:
-      | language   | message |
-      | English    | hello   |
+      | language | message |
+      | English  | hello   |

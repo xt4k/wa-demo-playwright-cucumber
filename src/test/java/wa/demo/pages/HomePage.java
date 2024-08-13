@@ -1,4 +1,4 @@
-package my.accelerator.atf.pages;
+package wa.demo.pages;
 
 import com.microsoft.playwright.Page;
 import io.cucumber.spring.ScenarioScope;
@@ -26,7 +26,6 @@ public class HomePage {
     @Autowired
     private Page page;
 
-
     public void open() {
         page.navigate(betHomePageUrl, new Page.NavigateOptions().setTimeout(5_000));
     }
@@ -40,15 +39,7 @@ public class HomePage {
     }
 
     public void openChat() {
-        //  page.waitForNavigation(() -> {
         page.getByTitle(chatTitle).click();
-        //   });
     }
 
-
-    //After runs in reverse order so order=1 will run first
-//    @AfterAll(order = 0)
-    //  public void quitBrowser() {
-    //      page.close();
-    //   }
 }

@@ -1,10 +1,11 @@
-package my.accelerator.atf.cucumber.steps;
+package wa.demo.cucumber.steps;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import my.accelerator.atf.pages.HomePage;
+import wa.demo.pages.HomePage;
+
 
 @AllArgsConstructor
 @Slf4j
@@ -12,17 +13,17 @@ public class MainPageSteps {
     private final HomePage homePage;
 
     @Given("^user navigated to homepage$")
-    public void player_navigated_to_home_page() {
+    public void playerNavigatedToHomePage() {
         homePage.open();
     }
 
     @When("^user select tab \"([^\"]*)\"$")
-    public void player_select_to_home_page(String string) {
+    public void playerSelectTab(String string) {
         homePage.openTab(string);
     }
 
     @When("^user click `SIGN IN`$")
-    public void sign_in() {
+    public void playerSignIn() {
         homePage.signIn();
     }
 
@@ -31,8 +32,4 @@ public class MainPageSteps {
         homePage.openChat();
     }
 
-
-  //  @When("user click {string} button")
-    public void userClickEfbetChatButton() {
-    }
 }

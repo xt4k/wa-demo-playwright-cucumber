@@ -1,16 +1,15 @@
-package my.accelerator.atf.cucumber.steps;
+package wa.demo.cucumber.steps;
 
 import com.microsoft.playwright.ElementHandle;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import my.accelerator.atf.pages.tab.LiveCasinoPage;
 import org.assertj.core.api.Assertions;
+import wa.demo.pages.tab.LiveCasinoPage;
 
 import java.util.List;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @AllArgsConstructor

@@ -1,11 +1,11 @@
-package my.accelerator.atf.cucumber.steps;
+package wa.demo.cucumber.steps;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import my.accelerator.atf.pages.tab.SportsPage;
 import org.assertj.core.api.Assertions;
+import wa.demo.pages.tab.SportsPage;
 
 import java.util.List;
 
@@ -25,12 +25,12 @@ public class SportTabSteps {
     }
 
     @And("^user select first match from prematch page block$")
-    public void selectTopRowInPrematchTable() {
+    public void selectTopRowInPreMatchTable() {
         sportTabPage.selectTopRowInPrematchTable();
     }
 
     @Then("^in betslip block present notification \"([^\"]*)\"$")
-    public void inBetslipBlockPresentNotification(String warningMessage) {
+    public void inBetSlipBlockPresentNotification(String warningMessage) {
         List<String> actualMessages = sportTabPage.getBetSlipWarningsMessage();
         Assertions.assertThat(actualMessages).contains(warningMessage);
     }

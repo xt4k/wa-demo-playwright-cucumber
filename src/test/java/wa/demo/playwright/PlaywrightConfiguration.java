@@ -1,14 +1,26 @@
-package wa.demo.configuration;
+package wa.demo.playwright;
 
 import com.microsoft.playwright.*;
+import lombok.Data;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Objects;
+
 @Configuration
+@Data
 public class PlaywrightConfiguration {
+    Page page;
+    BrowserContext browserContext;
+
+    Boolean isTracingSet = false;
 
     @Bean
     public Playwright playwright() {
@@ -42,14 +54,57 @@ public class PlaywrightConfiguration {
 
     @Bean
     public BrowserContext browserContext(Browser browser) {
-        return browser.newContext();
+        browserContext = browser.newContext();
+        return browserContext;
     }
 
     @Bean
     public Page page(Browser browser) {
-        Page page =  browser.newPage();
+        page = browser.newPage();
         page.setDefaultTimeout(60000);
         page.setDefaultNavigationTimeout(120000);
         return page;
     }
+
+
+    /**
+     * This method will be called from Hooks class, from cucumber After hook
+     *
+     * @return byte array which holds the screenshot
+     */
+    public byte[] captureScreenshot() {
+        Path objPath = Paths.get("target/screenshots/Screenshot_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("ddMMyy_hhmmss")) + ".png");
+        return page.screenshot(new Page.ScreenshotOptions().setPath(objPath).setFullPage(true));
+    }
+
+    /**
+     * This method will be called from Constructor to set the Playwright browser tracing on
+     * this method returns byte array which holds the screenshot
+     */
+    public void setTracing(Boolean option) {
+        if (option && !Objects.isNull(browserContext)) {
+            browserContext.tracing().start(new Tracing.StartOptions()
+                    .setSnapshots(true));
+            isTracingSet = true;
+        }
+    }
+
+    /**
+     * This method will be called from Hooks class's After annotation to decide if Playwright browser tracing needs to be turned off
+     *
+     * @return boolean that show is tracing set
+     */
+
+    public boolean isTracingOptionSet() {
+        return isTracingSet;
+    }
+
+    public void close() {
+        page.close();
+        browserContext.close();
+        playwright().close();
+        System.clearProperty("browser");
+        System.clearProperty("tracing");
+    }
+
 }

@@ -1,4 +1,4 @@
-package wa.demo.pages.popups;
+package wa.demo.pages.popup;
 
 import com.microsoft.playwright.Page;
 import io.cucumber.spring.ScenarioScope;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @ScenarioScope
 @PropertySource({
-        "classpath:pages/signin-popups.properties",
+        "classpath:pages/signin-popup.properties",
         "classpath:application.properties"
 })
 public class SignInPopupPage {

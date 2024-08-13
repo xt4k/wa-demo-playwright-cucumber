@@ -1,18 +1,19 @@
-package my.accelerator.atf.cucumber.steps;
+package wa.demo.cucumber.steps;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import my.accelerator.atf.pages.EntranceBlockPage;
+import wa.demo.pages.popup.SignInPopupPage;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 @AllArgsConstructor
 @Slf4j
 public class SignInSteps {
-    private final EntranceBlockPage loginPopupPage;
+    private final SignInPopupPage loginPopupPage;
 
     @When("^user set email$")
     public void playerSetEmail() {

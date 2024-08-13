@@ -1,4 +1,4 @@
-package my.accelerator.atf.cucumber;
+package wa.demo.cucumber;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,7 +6,6 @@ import org.springframework.cglib.proxy.InvocationHandler;
 import org.springframework.cglib.proxy.Proxy;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
-
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
